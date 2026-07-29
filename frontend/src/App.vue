@@ -55,7 +55,7 @@
           <div class="card erp-card" v-if="resultData.orderData">
             <h3>📦 訂單與客戶資訊 </h3>
             <div class="erp-grid">
-             <div><strong>客戶姓名：</strong> {{ resultData.orderData?.customer?.name || '未填寫名稱' }} ({{ resultData.orderData?.customer?.membership_tier || 'Standard' }})</div>
+              <div><strong>客戶姓名：</strong> {{ resultData.orderData?.customer?.name || '未填寫名稱' }} ({{ resultData.orderData?.customer?.membership_tier || 'Standard' }})</div>
               <div><strong>訂單狀態：</strong> <span class="status-tag">{{ resultData.orderData.order?.status }}</span></div>
               <div><strong>預計送達：</strong> {{ resultData.orderData.order?.expected_delivery }}</div>
               <div><strong>物流運送：</strong> {{ resultData.orderData.shipping?.carrier }} (延誤 {{ resultData.orderData.shipping?.delay_days }} 天)</div>
