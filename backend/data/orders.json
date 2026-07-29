@@ -1,0 +1,122 @@
+[
+  {
+    "order_id": "ORD-10234",
+    "customer_id": "CUST-8801",
+    "order_date": "2026-07-20",
+    "expected_delivery": "2026-07-27",
+    "status": "In Transit",
+    "items": [{"product_id": "PROD-001", "name": "Wireless Noise-Canceling Headphones", "quantity": 1, "price": 199.99}],
+    "total_amount": 199.99,
+    "shipping_address": "123 Tech Avenue, Taipei City, Taiwan",
+    "cancellation_eligible": false,
+    "return_eligible": true
+  },
+  {
+    "order_id": "ORD-10235",
+    "customer_id": "CUST-8802",
+    "order_date": "2026-07-28",
+    "expected_delivery": "2026-08-02",
+    "status": "Processing",
+    "items": [{"product_id": "PROD-002", "name": "Mechanical Gaming Keyboard", "quantity": 1, "price": 129.99}],
+    "total_amount": 129.99,
+    "shipping_address": "456 Developer Road, Hsinchu City, Taiwan",
+    "cancellation_eligible": true,
+    "return_eligible": false
+  },
+  {
+    "order_id": "ORD-10236",
+    "customer_id": "CUST-8803",
+    "order_date": "2026-07-15",
+    "expected_delivery": "2026-07-20",
+    "status": "Delivered",
+    "items": [{"product_id": "PROD-003", "name": "4K Ultra HD Monitor 27-inch", "quantity": 1, "price": 349.99}],
+    "total_amount": 349.99,
+    "shipping_address": "789 Innovation Street, Taichung City, Taiwan",
+    "cancellation_eligible": false,
+    "return_eligible": true
+  },
+  {
+    "order_id": "ORD-10237",
+    "customer_id": "CUST-8804",
+    "order_date": "2026-07-29",
+    "expected_delivery": "2026-08-03",
+    "status": "Processing",
+    "items": [{"product_id": "PROD-004", "name": "Ergonomic Office Chair", "quantity": 1, "price": 250.00}],
+    "total_amount": 250.00,
+    "shipping_address": "12 Lane 5, Kaohsiung City, Taiwan",
+    "cancellation_eligible": true,
+    "return_eligible": false
+  },
+  {
+    "order_id": "ORD-10238",
+    "customer_id": "CUST-8805",
+    "order_date": "2026-07-18",
+    "expected_delivery": "2026-07-23",
+    "status": "In Transit",
+    "items": [{"product_id": "PROD-005", "name": "USB-C Multi-Port Hub", "quantity": 2, "price": 45.00}],
+    "total_amount": 90.00,
+    "shipping_address": "88 University Road, Tainan City, Taiwan",
+    "cancellation_eligible": false,
+    "return_eligible": false
+  },
+  {
+    "order_id": "ORD-10239",
+    "customer_id": "CUST-8806",
+    "order_date": "2026-07-10",
+    "expected_delivery": "2026-07-15",
+    "status": "Delivered",
+    "items": [{"product_id": "PROD-006", "name": "Smart Watch Series 5", "quantity": 1, "price": 299.00}],
+    "total_amount": 299.00,
+    "shipping_address": "33 Park Street, Taoyuan City, Taiwan",
+    "cancellation_eligible": false,
+    "return_eligible": false
+  },
+  {
+    "order_id": "ORD-10240",
+    "customer_id": "CUST-8807",
+    "order_date": "2026-07-25",
+    "expected_delivery": "2026-07-30",
+    "status": "Shipped",
+    "items": [{"product_id": "PROD-007", "name": "Portable SSD 2TB", "quantity": 1, "price": 159.99}],
+    "total_amount": 159.99,
+    "shipping_address": "101 Science Park Rd, Hsinchu, Taiwan",
+    "cancellation_eligible": false,
+    "return_eligible": true
+  },
+  {
+    "order_id": "ORD-10241",
+    "customer_id": "CUST-8808",
+    "order_date": "2026-07-26",
+    "expected_delivery": "2026-07-31",
+    "status": "Cancelled",
+    "items": [{"product_id": "PROD-008", "name": "Bluetooth Desk Speaker", "quantity": 1, "price": 79.99}],
+    "total_amount": 79.99,
+    "shipping_address": "55 River Side Rd, New Taipei City, Taiwan",
+    "cancellation_eligible": false,
+    "return_eligible": false
+  },
+  {
+    "order_id": "ORD-10242",
+    "customer_id": "CUST-8809",
+    "order_date": "2026-07-22",
+    "expected_delivery": "2026-07-28",
+    "status": "In Transit",
+    "items": [{"product_id": "PROD-009", "name": "HD Webcam 1080p", "quantity": 1, "price": 59.99}],
+    "total_amount": 59.99,
+    "shipping_address": "77 Industry Zone, Changhua, Taiwan",
+    "cancellation_eligible": false,
+    "return_eligible": true
+  },
+  {
+    "order_id": "ORD-10243",
+    "customer_id": "CUST-8810",
+    "order_date": "2026-07-29",
+    "expected_delivery": "2026-08-04",
+    "status": "Processing",
+    "items": [{"product_id": "PROD-010", "name": "Vertical Ergonomic Mouse", "quantity": 1, "price": 49.99}],
+    "total_amount": 49.99,
+    "shipping_address": "99 Harbor Rd, Keelung City, Taiwan",
+    "cancellation_eligible": true,
+    "return_eligible": false
+  }
+]

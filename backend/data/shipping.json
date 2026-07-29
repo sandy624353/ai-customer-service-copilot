@@ -1,0 +1,102 @@
+[
+  {
+    "order_id": "ORD-10234",
+    "carrier": "Global Express Logistics",
+    "tracking_number": "TRK-99887766",
+    "current_status": "In Transit",
+    "last_update_location": "Taoyuan Sorting Hub",
+    "last_update_time": "2026-07-25 14:30:00",
+    "delay_days": 3,
+    "notes": "Package stuck at sorting facility due to regional weather delay."
+  },
+  {
+    "order_id": "ORD-10235",
+    "carrier": "Global Express Logistics",
+    "tracking_number": "TRK-99887767",
+    "current_status": "Pending Pickup",
+    "last_update_location": "Main Warehouse",
+    "last_update_time": "2026-07-28 09:00:00",
+    "delay_days": 0,
+    "notes": "Awaiting logistics carrier dispatch."
+  },
+  {
+    "order_id": "ORD-10236",
+    "carrier": "Swift Direct Delivery",
+    "tracking_number": "TRK-99887768",
+    "current_status": "Delivered",
+    "last_update_location": "Taichung Distribution Center",
+    "last_update_time": "2026-07-20 11:15:00",
+    "delay_days": 0,
+    "notes": "Package signed and received by customer."
+  },
+  {
+    "order_id": "ORD-10237",
+    "carrier": "Global Express Logistics",
+    "tracking_number": "TRK-99887769",
+    "current_status": "Processing",
+    "last_update_location": "Kaohsiung Fulfillment Hub",
+    "last_update_time": "2026-07-29 16:00:00",
+    "delay_days": 0,
+    "notes": "Order placed, preparing for packaging."
+  },
+  {
+    "order_id": "ORD-10238",
+    "carrier": "Speedy Parcel Cargo",
+    "tracking_number": "TRK-99887770",
+    "current_status": "In Transit",
+    "last_update_location": "Tainan Logistics Depot",
+    "last_update_time": "2026-07-21 08:45:00",
+    "delay_days": 7,
+    "notes": "Severe delay: Address unverified by carrier driver."
+  },
+  {
+    "order_id": "ORD-10239",
+    "carrier": "Swift Direct Delivery",
+    "tracking_number": "TRK-99887771",
+    "current_status": "Delivered",
+    "last_update_location": "Taoyuan Local Post",
+    "last_update_time": "2026-07-14 15:20:00",
+    "delay_days": 0,
+    "notes": "Delivered to security guard house per request."
+  },
+  {
+    "order_id": "ORD-10240",
+    "carrier": "Global Express Logistics",
+    "tracking_number": "TRK-99887772",
+    "current_status": "Out for Delivery",
+    "last_update_location": "Hsinchu Delivery Truck #4",
+    "last_update_time": "2026-07-30 08:00:00",
+    "delay_days": 0,
+    "notes": "Driver on route, estimated arrival today by 5 PM."
+  },
+  {
+    "order_id": "ORD-10241",
+    "carrier": "None",
+    "tracking_number": "N/A",
+    "current_status": "Cancelled",
+    "last_update_location": "System Auto Cancel",
+    "last_update_time": "2026-07-26 10:00:00",
+    "delay_days": 0,
+    "notes": "Order cancelled by customer before dispatch."
+  },
+  {
+    "order_id": "ORD-10242",
+    "carrier": "Speedy Parcel Cargo",
+    "tracking_number": "TRK-99887773",
+    "current_status": "In Transit",
+    "last_update_location": "Taichung Central Hub",
+    "last_update_time": "2026-07-27 18:30:00",
+    "delay_days": 2,
+    "notes": "Minor sorting machine technical issue at hub."
+  },
+  {
+    "order_id": "ORD-10243",
+    "carrier": "Global Express Logistics",
+    "tracking_number": "TRK-99887774",
+    "current_status": "Pending Pickup",
+    "last_update_location": "Main Warehouse",
+    "last_update_time": "2026-07-29 11:00:00",
+    "delay_days": 0,
+    "notes": "Item packed, waiting for label generation."
+  }
+]

@@ -1,0 +1,3 @@
+【訂單取消政策 Cancellation Policy】
+1. 訂單狀態為「Processing (處理中)」且尚未交由物流出貨前（cancellation_eligible: true），客戶可申請全額取消訂單。
+2. 若訂單狀態已為「In Transit (運輸中)」或「Shipped (已出貨)」（cancellation_eligible: false），無法直接取消訂單，客服應引導客戶於收到商品後走退貨流程。
