@@ -53,9 +53,9 @@
           </div>
 
           <div class="card erp-card" v-if="resultData.orderData">
-            <h3>📦 關聯訂單與客戶資訊 (Mock ERP)</h3>
+            <h3>📦 訂單與客戶資訊 </h3>
             <div class="erp-grid">
-              <div><strong>客戶姓名：</strong> {{ resultData.orderData.customer?.name }} ({{ resultData.orderData.customer?.membership_tier }})</div>
+             <div><strong>客戶姓名：</strong> {{ resultData.orderData?.order?.customer_name || '未填寫名稱' }}</div>
               <div><strong>訂單狀態：</strong> <span class="status-tag">{{ resultData.orderData.order?.status }}</span></div>
               <div><strong>預計送達：</strong> {{ resultData.orderData.order?.expected_delivery }}</div>
               <div><strong>物流運送：</strong> {{ resultData.orderData.shipping?.carrier }} (延誤 {{ resultData.orderData.shipping?.delay_days }} 天)</div>
@@ -63,7 +63,7 @@
           </div>
 
           <div class="card analysis-card">
-            <h3>🧠 AI 診斷與政策比對報告</h3>
+            <h3>🧠 AI 診斷</h3>
             <div class="badge-row">
               <span class="tag">問題類型: {{ resultData.issueType }}</span>
               <span class="tag department">建議轉交: {{ resultData.recommendedDepartment }}</span>
