@@ -190,7 +190,9 @@ const generateRecommendationNode = async (state) => {
 分析結論：${analysis}
 客戶問題：${customerQuestion}
 
-嚴格限制：草稿內容必須與分析結論 100% 一致！如果不可取消，絕對不能寫已成功取消！
+【強效約束規則】：
+1. 你的輸出（包含 suggestedReply）必須 100% 使用「台灣繁體中文」，絕對禁止出現簡體字或大陸用語！
+2. 草稿內容必須與分析結論 100% 一致！如果不可線上取消，絕對不能寫已成功取消！
 
 請僅輸出標準 JSON 格式：
 {
