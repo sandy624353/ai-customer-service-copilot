@@ -116,7 +116,7 @@ const startProcess = async () => {
   resultData.value = null;
 
   try {
-    const response = await fetch('http://localhost:3000/api/copilot/process', {
+    const response = await fetch('https://ai-customer-service-copilot.onrender.com, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

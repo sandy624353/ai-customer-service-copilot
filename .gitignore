@@ -1,7 +1,34 @@
-backend/.env
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# 忽略任何目錄與子目錄下的 .env 檔案
+**/.env
 .env
 *.env
-**/.env
+backend/services/.env
+
+# 忽略 node_modules 與產出
 node_modules/
 **/node_modules/
 dist/
