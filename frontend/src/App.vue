@@ -151,8 +151,16 @@ const startProcess = async () => {
           if (eventType === 'status') {
             statusLogs.value.push(eventData.message);
           } else if (eventType === 'result') {
-            resultData.value = eventData.data;
-            editableReply.value = eventData.data.suggestedReply;
+          // 使用 JSON.parse(JSON.stringify(...)) 強制讓 Vue 觸發深度響應式更新
+          const receivedData = eventData.data;
+          resultData.value = JSON.parse(JSON.stringify(receivedData));
+
+          // 確保回覆草稿同步更新
+          editableReply.value = receivedData.suggestedReply || '';
+
+          // 除錯用：直接在瀏覽器 Console 印出收到的資料，確認是否有 customer
+          console.log('🎉 [Frontend Received Result]:', resultData.value);
+          console.log('👤 [Customer Info]:', resultData.value?.orderData?.customer);
           }
         }
       }
