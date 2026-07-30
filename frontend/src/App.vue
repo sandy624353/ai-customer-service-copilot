@@ -33,7 +33,7 @@
         </div>
 
         <div class="card progress-card" v-if="statusLogs.length > 0">
-          <h3>⚙️ AI 工作流即時狀態 (SSE Stream)</h3>
+          <h3>即時狀態 </h3>
           <ul class="logs-list">
             <li v-for="(log, idx) in statusLogs" :key="idx" class="log-item">
               {{ log }}

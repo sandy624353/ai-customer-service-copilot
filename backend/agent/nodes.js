@@ -104,7 +104,7 @@ const retrieveDataAndPolicyNode = async (state) => {
     orderData,
     relevantPolicy,
     statusLogs: [
-      `📡 資料調取完成：${orderData ? '成功取得訂單與物流明細' : '未找到訂單明細'}，政策檢索完成`,
+      `資料調取完成：${orderData ? '成功取得訂單與物流明細' : '未找到訂單明細'}，政策檢索完成`,
     ],
   };
 };

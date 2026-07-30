@@ -19,7 +19,7 @@ router.post('/process', async (req, res) => {
   };
 
   try {
-    sendSSEvent('status', { message: '🚀 Copilot 工作流已啟動...' });
+    sendSSEvent('status', { message: '開始分析...' });
 
     // 2. 訂閱 LangGraph 的流式事件 (streamEvents)
     const initialInput = {
